@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="/tower.css">
+
+    <div id="upperDiv">
+        <div id="leftSide">
+            <div id="towerImg"></div>
+            <div id="towerP">Tower API</div>
+        </div>
+        <div id="MidSide"><p id="switcher">ENCRYPT</p></div>
+        <div id="rightSide">
+            <img src="profilepfp.png" id="pfp">
+            <div id="menu">
+                <div class="meniDivs"></div>
+                <div class="meniDivs"></div>
+                <div class="meniDivs"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="middle">
+        <div id="leftMid">
+            <div id="cover">
+            <textarea id="complexity" placeholder="Complexity (recomended not more than 12)"></textarea>
+            </div>
+            <textarea id="input" placeholder="Enter Text"></textarea>
+            <p id="leftTip">delete to clear</p>
+        </div>
+        <div id="rightMid">
+            <div id="keyCodeDiv">
+                <textarea id="keyCodeText" placeholder="Enter Key"></textarea>
+                <button id="randomBtn" onclick="randomKey()">Random </button>
+            </div>
+            <textarea id="output"  placeholder="Encrypted"></textarea>
+            <p id="rightTip">click to copy</p>
+        </div>
+    </div>
+
+</head>
+
+<body>
+    <script src="/towerScript.js"></script>
+</body>
+
+</html>
